@@ -98,10 +98,6 @@
 
 .flowers_contents {
     width: 31%;
-    margin-bottom: 30px;
-
-
-
 }
 
 .flowers_name {
@@ -131,3 +127,28 @@
 .background_modified {
     background: rgba(5, 151, 160, 0.15);
 }
+
+
+/* service section style start */
+
+.service_container {
+    margin: 130px 0;
+    padding: 85px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.service_item {
+    text-align: center;
+}
+
+.service_title {
+
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
