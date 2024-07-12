@@ -185,3 +185,32 @@
 .instagram_item img{
     width: 100%;
 }
+
+/* subscription section style start */
+
+.subscription_contents{
+    padding: 130px 290px 100px;
+    text-align: center;
+    background-image: url(/asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 130px;
+
+}
+
+.contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contents input{
+    all: unset;
+    padding: 22px;
+    margin-right:16px ;
+    border-radius: 8px;
+    text-align: start;
+    display: inline-block;
+    background:#fff;
+    width: 80%;
+
+}
