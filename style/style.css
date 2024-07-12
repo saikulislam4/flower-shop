@@ -26,7 +26,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    padding: 0 100px;
+    padding: 0 200px;
     margin-bottom: 20px;
 
 }
@@ -165,4 +165,23 @@
     text-align: center;
     align-items: center;
     padding: 100px 0px;
+}
+
+/* instagram section style start */
+
+.instagram_title{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.instagram_contents{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 130px;
+}
+
+.instagram_item img{
+    width: 100%;
 }
