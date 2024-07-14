@@ -159,7 +159,7 @@
     background: rgba(229, 84, 115, 0.05);
 }
 
-.hot_deal_contents{
+.hot_deal_contents {
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -169,26 +169,26 @@
 
 /* instagram section style start */
 
-.instagram_title{
+.instagram_title {
     text-align: center;
     margin-top: 130px;
     margin-bottom: 50px;
 }
 
-.instagram_contents{
+.instagram_contents {
     display: grid;
     gap: 24px;
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 130px;
 }
 
-.instagram_item img{
+.instagram_item img {
     width: 100%;
 }
 
 /* subscription section style start */
 
-.subscription_contents{
+.subscription_contents {
     padding: 130px 290px 100px;
     text-align: center;
     background-image: url(/asset/Rectangle\ 9.png);
@@ -198,19 +198,45 @@
 
 }
 
-.contents{
+.contents {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.contents input{
+
+.contents input {
     all: unset;
     padding: 22px;
-    margin-right:16px ;
+    margin-right: 16px;
     border-radius: 8px;
     text-align: start;
     display: inline-block;
-    background:#fff;
+    background: #fff;
     width: 80%;
 
+}
+
+/* footer section style start */
+footer {
+    background-color: #000;
+    padding: 130px 0;
+    color: white;
+    text-align: center;
+}
+
+.footer_title {
+    color: white;
+}
+
+.footer_flower {
+    color: #E55473;
+}
+
+.footer_description {
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-weight: 400;
 }
